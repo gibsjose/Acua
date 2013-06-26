@@ -47,7 +47,6 @@
     [self defineDatabase];
     [self checkDay];
     [self extractDailyAmount];
-    //NSLog(@"%i", self.drankToday);
     if (self.drankToday >= 1000) {
         double literAmount = (double)self.drankToday;
         literAmount = (literAmount * .001);
@@ -167,11 +166,11 @@
         const char *insert_stmt = [insertSQL UTF8String];
         
         sqlite3_prepare_v2(statisticsDB, insert_stmt, -1, &statement, NULL);
-        
-        self.nAmount = 0;
-        
+        sqlite3_step(statement);
         sqlite3_finalize(statement);
         sqlite3_close(statisticsDB);
+        
+        self.nAmount = 0;
     }
 }
 

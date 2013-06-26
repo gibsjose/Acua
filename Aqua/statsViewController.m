@@ -39,9 +39,7 @@
     self.day = [components day];
     self.week = [components week];
     [self setTextElements];
-    NSLog(@"good");
     [self defineDBPath];
-    NSLog(@"worse");
     [self extractWeeklyAmount];
     [self extractMonthlyAmount];
     [self extractYearlyAmount];
@@ -333,14 +331,14 @@
         const char *query_stmt = [querySQL UTF8String];
         if (sqlite3_prepare_v2(statisticsDB, query_stmt, -1, &statement, NULL) == SQLITE_OK)
         {
-            int curCount;
+            int curCount = 0;
+            
             while(sqlite3_step(statement) == SQLITE_ROW)
             {
                 NSString *countString = [[NSString alloc] initWithUTF8String:(const char *) sqlite3_column_text(statement, 0)];
                 curCount = [countString integerValue];
             }
             self.count = curCount;
-            NSLog(@"%i", curCount);
             sqlite3_finalize(statement);
         }
         sqlite3_close(statisticsDB);
