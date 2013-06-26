@@ -262,14 +262,14 @@
         {
             sqlite3_step(statement);
             sqlite3_finalize(statement);
-            self.weekLabel.text = @"0 ml";
             
+            self.weekLabel.text = @"0 ml";
             self.monthLabel.text = @"0 ml";
-        
             self.yearLabel.text = @"0 ml";
             
-            
-            
+            self.weekLabel.textColor = [UIColor redColor];
+            self.monthLabel.textColor = [UIColor redColor];
+            self.yearLabel.textColor = [UIColor redColor];
         }
         sqlite3_close(statisticsDB);
         //[self defineDatabase];
