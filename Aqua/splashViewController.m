@@ -167,10 +167,9 @@
         const char *insert_stmt = [insertSQL UTF8String];
         
         sqlite3_prepare_v2(statisticsDB, insert_stmt, -1, &statement, NULL);
-        if (sqlite3_step(statement) == SQLITE_DONE)
-        {
-            self.nAmount = 0;
-        }
+        
+        self.nAmount = 0;
+        
         sqlite3_finalize(statement);
         sqlite3_close(statisticsDB);
     }
