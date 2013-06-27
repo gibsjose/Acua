@@ -28,7 +28,11 @@
 		78F174901778CB8900FC6D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F1748F1778CB8900FC6D72 /* Default-568h@2x.png */; };
 		D80F9CA0177BA04700B1805E /* AdventPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D80F9C9F177BA04700B1805E /* AdventPro-Light.ttf */; };
 		D80F9CA2177BA04D00B1805E /* AdventPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D80F9CA1177BA04D00B1805E /* AdventPro-Regular.ttf */; };
+		D85F3EF4177BCAF000948772 /* Acua_Load_Screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F3EF0177BCAF000948772 /* Acua_Load_Screen@2x.png */; };
+		D85F3EF5177BCAF000948772 /* Acua_Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F3EF1177BCAF000948772 /* Acua_Logo@2x.png */; };
+		D85F3EF6177BCAF000948772 /* Add_Pull_Tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F3EF2177BCAF000948772 /* Add_Pull_Tab@2x.png */; };
 		D8AA3025177B9DD60027ACA4 /* statsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA3024177B9DD60027ACA4 /* statsViewController.m */; };
+		D8F19BA4177BCDCF0015C13A /* Menu_Pull_Tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F19BA3177BCDCF0015C13A /* Menu_Pull_Tab@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +71,13 @@
 		78F1748F1778CB8900FC6D72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		D80F9C9F177BA04700B1805E /* AdventPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Light.ttf"; sourceTree = "<group>"; };
 		D80F9CA1177BA04D00B1805E /* AdventPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Regular.ttf"; sourceTree = "<group>"; };
+		D85F3EF0177BCAF000948772 /* Acua_Load_Screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acua_Load_Screen@2x.png"; path = "Resources/PNG/Acua_Load_Screen@2x.png"; sourceTree = SOURCE_ROOT; };
+		D85F3EF1177BCAF000948772 /* Acua_Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acua_Logo@2x.png"; path = "Resources/PNG/Acua_Logo@2x.png"; sourceTree = SOURCE_ROOT; };
+		D85F3EF2177BCAF000948772 /* Add_Pull_Tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add_Pull_Tab@2x.png"; path = "Resources/PNG/Add_Pull_Tab@2x.png"; sourceTree = SOURCE_ROOT; };
 		D8AA3023177B9DC90027ACA4 /* statsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statsViewController.h; sourceTree = "<group>"; };
 		D8AA3024177B9DD60027ACA4 /* statsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statsViewController.m; sourceTree = "<group>"; };
 		D8AA3026177B9DE00027ACA4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8F19BA3177BCDCF0015C13A /* Menu_Pull_Tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu_Pull_Tab@2x.png"; path = "Resources/PNG/Menu_Pull_Tab@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				78379693177639BD00F809E5 /* AppDelegate.m */,
-				7837969B177639BD00F809E5 /* MainStoryboard.storyboard */,
 				D8AA3026177B9DE00027ACA4 /* AppDelegate.h */,
+				7837969B177639BD00F809E5 /* MainStoryboard.storyboard */,
 				783796BE1776424200F809E5 /* splashViewController.h */,
 				783796BF1776424200F809E5 /* splashViewController.m */,
 				D8AA3023177B9DC90027ACA4 /* statsViewController.h */,
@@ -148,6 +156,10 @@
 		7837968A177639BD00F809E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D85F3EF0177BCAF000948772 /* Acua_Load_Screen@2x.png */,
+				D85F3EF1177BCAF000948772 /* Acua_Logo@2x.png */,
+				D85F3EF2177BCAF000948772 /* Add_Pull_Tab@2x.png */,
+				D8F19BA3177BCDCF0015C13A /* Menu_Pull_Tab@2x.png */,
 				D80F9C9F177BA04700B1805E /* AdventPro-Light.ttf */,
 				D80F9CA1177BA04D00B1805E /* AdventPro-Regular.ttf */,
 				7837968B177639BD00F809E5 /* Acua-Info.plist */,
@@ -261,6 +273,10 @@
 				789E6A4A177B5C5100FDD9A4 /* menuButtonSelect.jpeg in Resources */,
 				D80F9CA0177BA04700B1805E /* AdventPro-Light.ttf in Resources */,
 				D80F9CA2177BA04D00B1805E /* AdventPro-Regular.ttf in Resources */,
+				D85F3EF4177BCAF000948772 /* Acua_Load_Screen@2x.png in Resources */,
+				D85F3EF5177BCAF000948772 /* Acua_Logo@2x.png in Resources */,
+				D85F3EF6177BCAF000948772 /* Add_Pull_Tab@2x.png in Resources */,
+				D8F19BA4177BCDCF0015C13A /* Menu_Pull_Tab@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

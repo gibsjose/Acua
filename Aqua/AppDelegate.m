@@ -12,7 +12,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [UIView animateWithDuration:2.0
+                     animations:^{
+                         self.launchImageView.center = CGPointMake(self.launchImageView.center.x,
+                                                                   self.launchImageView.center.y + 480.0);
+                     }
+                     completion:^(BOOL finished){
+                         [self.launchImageView removeFromSuperview];
+                         self.launchImageView = nil;
+                     }
+     ];
     return YES;
 }
 							
@@ -41,6 +50,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (IBAction)launchImageView:(id)sender {
+    
 }
 
 @end
