@@ -28,6 +28,7 @@
 		78F174901778CB8900FC6D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F1748F1778CB8900FC6D72 /* Default-568h@2x.png */; };
 		D80F9CA0177BA04700B1805E /* AdventPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D80F9C9F177BA04700B1805E /* AdventPro-Light.ttf */; };
 		D80F9CA2177BA04D00B1805E /* AdventPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D80F9CA1177BA04D00B1805E /* AdventPro-Regular.ttf */; };
+		D81BC0E0178211E00078CC30 /* Menu_Tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D81BC0DF178211E00078CC30 /* Menu_Tab@2x.png */; };
 		D85F3EF4177BCAF000948772 /* Acua_Load_Screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F3EF0177BCAF000948772 /* Acua_Load_Screen@2x.png */; };
 		D85F3EF5177BCAF000948772 /* Acua_Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F3EF1177BCAF000948772 /* Acua_Logo@2x.png */; };
 		D85F3EF6177BCAF000948772 /* Add_Pull_Tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85F3EF2177BCAF000948772 /* Add_Pull_Tab@2x.png */; };
@@ -71,6 +72,7 @@
 		78F1748F1778CB8900FC6D72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		D80F9C9F177BA04700B1805E /* AdventPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Light.ttf"; sourceTree = "<group>"; };
 		D80F9CA1177BA04D00B1805E /* AdventPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Regular.ttf"; sourceTree = "<group>"; };
+		D81BC0DF178211E00078CC30 /* Menu_Tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu_Tab@2x.png"; path = "Resources/PNG/Menu_Tab@2x.png"; sourceTree = SOURCE_ROOT; };
 		D85F3EF0177BCAF000948772 /* Acua_Load_Screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acua_Load_Screen@2x.png"; path = "Resources/PNG/Acua_Load_Screen@2x.png"; sourceTree = SOURCE_ROOT; };
 		D85F3EF1177BCAF000948772 /* Acua_Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acua_Logo@2x.png"; path = "Resources/PNG/Acua_Logo@2x.png"; sourceTree = SOURCE_ROOT; };
 		D85F3EF2177BCAF000948772 /* Add_Pull_Tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add_Pull_Tab@2x.png"; path = "Resources/PNG/Add_Pull_Tab@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -156,6 +158,7 @@
 		7837968A177639BD00F809E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D81BC0DF178211E00078CC30 /* Menu_Tab@2x.png */,
 				D85F3EF0177BCAF000948772 /* Acua_Load_Screen@2x.png */,
 				D85F3EF1177BCAF000948772 /* Acua_Logo@2x.png */,
 				D85F3EF2177BCAF000948772 /* Add_Pull_Tab@2x.png */,
@@ -277,6 +280,7 @@
 				D85F3EF5177BCAF000948772 /* Acua_Logo@2x.png in Resources */,
 				D85F3EF6177BCAF000948772 /* Add_Pull_Tab@2x.png in Resources */,
 				D8F19BA4177BCDCF0015C13A /* Menu_Pull_Tab@2x.png in Resources */,
+				D81BC0E0178211E00078CC30 /* Menu_Tab@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
